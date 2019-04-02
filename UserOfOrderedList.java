@@ -17,15 +17,15 @@ public class UserOfOrderedList {
         list.add(2);
         System.out.println(list
                            + System.lineSeparator()
-                           + "expecting [1,2,]");
+                           + "expecting [2,1,]");
         list.add(4);
         System.out.println(list
                            + System.lineSeparator()
-                           + "expecting [1,2,4,]");
+                           + "expecting [4,2,1,]");
         list.add(3);
         System.out.println(list
                            + System.lineSeparator()
-                           + "expecting [1,2,3,4,]");
+                           + "expecting [4,3,2,1,]");
 
     }
 }
