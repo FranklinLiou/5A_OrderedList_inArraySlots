@@ -21,13 +21,13 @@ public class OrderedList_inArraySlots {
 	public void add( int value) {
 		int index = 0;
 		if (size() == 0) {
-			System.out.println("yeah");
+			// System.out.println("yeah");
 			orderedList.add(index, value);
 		}
 		else {
 			for (int element = 0; element < size(); element ++) {
 				if (get(element) > value) {
-					System.out.println("yeah");
+					// System.out.println("yeah");
 					index ++;
 				}
 				else {

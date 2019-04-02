@@ -114,7 +114,7 @@ public class List_inArraySlots {
         if( index == filledElements) { // adding at end of list
             add( value);
             filledElements++;
-            System.out.println("yeah");
+            // System.out.println("yeah");
         }
         else {// need space
              // open up space, expanding if necessary

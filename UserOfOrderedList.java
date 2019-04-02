@@ -27,5 +27,17 @@ public class UserOfOrderedList {
                            + System.lineSeparator()
                            + "expecting [4,3,2,1,]");
 
+        System.out.println();
+        System.out.println(list.get(1)
+                           + System.lineSeparator()
+                           + "expecting 3");
+
+        System.out.println();
+        list.remove(1);
+        System.out.println(list
+                           + System.lineSeparator()
+                           + "expecting [4,2,1,]");
+
+
     }
 }
